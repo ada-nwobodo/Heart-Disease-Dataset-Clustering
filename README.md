@@ -1,0 +1,2 @@
+# Heart-Disease-Dataset-Clustering
+Project focus is on use of unsupervised algorithms to cluster datasets from Heart Disease patients. Objective is to group patients into clusters based on similar characteristics so clinicians can provide more targeted and effective treatments to each patient group
