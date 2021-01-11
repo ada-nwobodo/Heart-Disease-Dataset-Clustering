@@ -13,7 +13,7 @@ The Cleveland clinic patient datasets were clustered using 2 unsupervised algori
 ## DATA COLLECTION
 Datasets were obtained from the Cleveland Clinic Foundation. 14 out of 76 potential features/attributes were utilised for the purposes of the project. The heart disease patient features included: age, sex, resting B.P., serum cholesterol, fasting blood sugsr, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, slope of the peak exercise ST segment, the number of major coronary vessels coloured by fluoroscopy, resting ecg and diagnosis of heart disease. 
 
-## PPRE-PROCESSING
+## PRE-PROCESSING
 As part of data cleansing, i implemented the following steps:
 
 - Pulled the data into excel and cleaned it by converting delimited datasets, removing commas and separating each dataset into individual cells
