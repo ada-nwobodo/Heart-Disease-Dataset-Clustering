@@ -65,8 +65,11 @@ Finally, both clustering methods were compared to each other in a table of their
 
    hc_one_assign  
     1    2    3
+    
 1   10   82   0
+
 2   26   15   0
+
 3   162  7    1
 
 
