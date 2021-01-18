@@ -61,13 +61,14 @@ Using the hierarchical clustering approach, 2 different dissimilarity methods we
 
 The objective here was to investigate which patients were grouped together (by both clustering algorithms) - to ascertain if any patterns present in the cluster assignments or alternatively, if groups of noise.
 
-Finally, both clustering methods were compared to each other in a table of their outputs:
+Finally, both clustering methods were compared to each other in a table of their outputs: the hierarchical clustering method appeared to assign most of the observations to the 2nd cluster while the k-means model assigned most observations to the 3rd cluster. 
 
-   hc_one_assign
-     1    2    3
- 1   10   82   0
- 2   26   15   0
- 3   162   7   1
+## CONCLUSION
+Both clustering algorithms were assessed (each with different methods and testing different tuning parameters). Ultimately, the k-means algorithm didn't appear to be stable (by changing the number of starts and the seed validation of the algorithm) - resulted in different patient cluster groups. We therefore cannot exclude clustering of irrelevant features by the algorithm. 
+
+Both 'complete' and 'single' hierarchical clustering methods were used. The complete method yielded a balanced number of patients in each group but the single method did not. 
+
+On balance, the complete hierarchical clustering method would therefore be selected for further investigation to group patients in order to assist clinicians in comparison of treatment effects across the different patient groups.
 
 
 
